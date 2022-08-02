@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.main-1{
+  background-color: rgb(0, 0, 0);
+}
+
+.h1 > h1{
+  font-weight: bolder;
+  color: rgb(38, 233, 211);
+}
+
+.input{
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 35px 15px;
+}
+
+.input > form{
+  border: 5px solid aliceblue;
+  border-radius: 10px;
+  padding: 5px 5px 25px 5px;
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-primary{
+  background-color: rgb(38, 233, 211);
+  color: black;
+  border-color: aliceblue;
+  width: 150px;
+  transition: all 0.5s ease;
+}
+
+.btn-primary:hover{
+  background-color: black;
+  color: rgb(38, 233, 211);
+  border-color: aliceblue;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.main-2{
+  background-color: aquamarine;
+}
+
+.ui.cards{
+  padding: 5px 5px;
+}
+
+.ui.cards > .card{
+  margin: 0 auto;
+}
